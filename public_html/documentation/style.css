@@ -5,7 +5,11 @@ fuchsia
 */
 
 * {margin: 10px;}
-* {font: aileron-thin;}
+* {
+    font-family: aileron, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
 
 
 img {
