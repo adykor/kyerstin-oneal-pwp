@@ -1,0 +1,21 @@
+/* lavender
+fuchsia
+* {font-family: fangsong;}
+.container * {color: yellowgreen;}
+*/
+
+* {margin: 10px;}
+
+
+img {
+    border: 10px solid pink;
+}
+
+div {
+    display: inline-grid;
+    text-align: left;
+    width: 50%;
+    height: 50%;
+    background: pink;
+    padding: 10px;
+}
