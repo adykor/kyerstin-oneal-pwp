@@ -165,7 +165,40 @@ CONTACT FORM
 
 
 
+/* BAR JS TRANSITION - REMOVED */
+.bar {
+    position: relative;
+    width: 1.2rem;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 2px;
+}
 
+.bar:before, .bar:after {
+    content: '';
+    position: absolute;
+    width: 1.55rem;
+    height: 3px;
+    right: 0;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.bar:before {
+    transform: translateY(-8px);
+}
+
+.bar:after {
+    transform: translateY(8px);
+}
+
+
+
+
+
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 
 
 

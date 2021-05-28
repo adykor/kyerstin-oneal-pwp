@@ -37,7 +37,7 @@ header:after {
     z-index: 25;
 }
 
-.mountain1 {
+.mountain1 /* foreground */ {
     position: absolute;
     bottom: -100px;
     width: 1950px;
@@ -53,7 +53,7 @@ header:after {
     z-index: 20;
 }
 
-.mountain2 {
+.mountain2 /* city */ {
     position: absolute;
     width: 1350px;
     height: 800px;
@@ -131,31 +131,10 @@ nav .nav-links ul li img {
     font-weight: 300;
 }
 
-.bar {
-    position: relative;
-    width: 1.2rem;
-    height: 3px;
-    background-color: #fff;
-    border-radius: 2px;
-}
 
-.bar:before, .bar:after {
-    content: '';
-    position: absolute;
-    width: 1.55rem;
-    height: 3px;
-    right: 0;
-    background-color: #fff;
-    border-radius: 2px;
-}
 
-.bar:before {
-    transform: translateY(-8px);
-}
 
-.bar:after {
-    transform: translateY(8px);
-}
+
 
 .big-title {
     position: absolute;
@@ -189,13 +168,17 @@ section .container {
     min-height: 100vh; /* space from parallax */
 }
 
-section img {
+/* section img {
     width: 100%;
-}
+} */
 
 
 
 /* CONTAINER SECTIONS */
+
+.container-1, .container-2, .container-3 {
+    padding: 20px;
+}
 
 section .container > * {
     margin: 2rem;
@@ -207,9 +190,9 @@ section .container > * {
     transform: translateY(-50px);
 }
 
-.imgContainer {
+/* .imgContainer {
     transform: translateY(50px);
-}
+} */
 
 .title {
     font-weight: 600;
@@ -268,10 +251,6 @@ section .container > * {
 
 
 /* CAROUSEL */
-
-.container-xl {
-    padding: 5%;
-}
 
 button.carousel-control-next {
     border-color: rgb(239, 239, 239)

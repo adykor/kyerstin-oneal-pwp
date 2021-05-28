@@ -40,7 +40,7 @@ const handlePostRequest = (request, response, next) => {
     //response.append("Access-Control-Allow-Origin", "*")
 
     if (request.recaptcha.error) {
-        return response.send(Buffer.from(`<div class='alert alert-danger' role='alert'><strong>Oh snap! </strong>There was an error with Recaptcha please try again</div>`))
+        return response.send(Buffer.from(`<div class='alert alert-danger' role='alert'><strong>Oh snap! </strong>There was an error with ReCAPTCHA please try again</div>`))
     }
 
     const errors = validationResult(request)
