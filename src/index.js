@@ -60,6 +60,7 @@ const handlePostRequest = (request, response, next) => {
     }
     mailgun .messages().send(mailgunData, (error) => {
         if (error) {
+            console.log(error)
             return(response.send(Buffer.from(`<div class='alert alert-danger' role='alert'><strong>Oh
                 snap!</strong> Unable to send email error with email sender.</div>`)))
         }

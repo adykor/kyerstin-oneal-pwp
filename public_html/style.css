@@ -2,11 +2,11 @@
 @import url('https://fonts.cdnfonts.com/css/alphacentauri');
 /* possible fonts: Britannica(?) */
 
-/**{
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}*/
+}
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -168,9 +168,9 @@ section .container {
     min-height: 100vh; /* space from parallax */
 }
 
-/* section img {
+section img {
     width: 100%;
-} */
+}
 
 
 
@@ -190,9 +190,9 @@ section .container > * {
     transform: translateY(-50px);
 }
 
-/* .imgContainer {
+.imgContainer {
     transform: translateY(50px);
-} */
+}
 
 .title {
     font-weight: 600;
@@ -204,14 +204,14 @@ section .container > * {
 }
 
 
-.border {
+/* .border {
     position: absolute;
     width: 0%;
     height: 3px;
     background-color: #fff;
     bottom: 0;
     left: 0;
-}
+} */
 
 .shadow {
     position: absolute;
@@ -227,7 +227,7 @@ section .container > * {
     opacity: 0;
 }
 
-@media (max-width: 850px){
+@media (max-width: 850px) {
     section .container{
         grid-template-columns: 1fr;
     }
@@ -251,6 +251,10 @@ section .container > * {
 
 
 /* CAROUSEL */
+
+.container-xl {
+    padding: 50px;
+}
 
 button.carousel-control-next {
     border-color: rgb(239, 239, 239)
