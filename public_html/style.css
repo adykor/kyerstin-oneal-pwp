@@ -160,12 +160,12 @@ section {
 }
 
 section .container {
-    padding: 3rem;
+    padding: 5rem;
     /* display: grid;
     grid-template-columns: repeat(3, 3fr); /* from repeat(2, 1fr) */
     align-items: center;
     justify-content: center;
-    min-height: 100vh; /* space from parallax */
+    min-height: 15vh; /* space from parallax - initially set @ 100 */
 }
 
 section img {
@@ -176,7 +176,7 @@ section img {
 
 /* CONTAINER SECTIONS */
 
-.container-1, .container-2, .container-3 {
+#container-1, #container-2, #container-3 {
     padding: 20px;
 }
 
@@ -201,6 +201,7 @@ section .container > * {
     margin-bottom: 1rem;
     padding-bottom: .5rem;
     position: relative;
+    color: #fff;
 }
 
 
@@ -256,13 +257,13 @@ section .container > * {
     padding: 50px;
 }
 
-button.carousel-control-next {
-    border-color: rgb(239, 239, 239)
-}
+/*button.carousel-control-next {*/
+/*    border-color: rgb(239, 239, 239)*/
+/*}*/
 
-button.carousel-control-previous {
-    border-color: rgb(239, 239, 239)
-}
+/*button.carousel-control-previous {*/
+/*    border-color: rgb(239, 239, 239)*/
+/*}*/
 
 
 
